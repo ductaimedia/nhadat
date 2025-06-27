@@ -1,0 +1,294 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="SHORTCUT ICON" href="/Images/favicon.ico" />
+    <title>Không tìm thấy</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="googlebot" content="noindex" />
+    <link rel='stylesheet' type='text/css' href='/Styles/MainStyle.css?v=20150623' />
+</head>
+<body>
+    <div class="pagewrap">
+        
+<script src="/Scripts/jquery.nicescroll.js"></script>
+<div class="pageheader">
+    <div class="divlogo">
+        <a href="/"><img src="/Images/banxehoiv1.jpg" alt="banxehoi.com" class="logo" /></a>
+        <a href='/' title='Nơi tốt nhất để mua bán xe hơi - ô tô'>Nơi tốt nhất để mua bán xe hơi</a>
+    </div>
+    <div class="headerbanner">   
+     
+    <div style="display:none;height:90px" class="MultiBannerFullBanner bannerGIF">
+        <a href="http://batdongsan.com.vn/tin-thi-truong/batdongsan-com-vn-ra-mat-app-tren-he-dieu-hanh-android-va-ios-ar63100" rel="nofollow"><img src="/Images/App-banner-150323-728x90.gif" alt="banxehoi.com" /></a>
+    </div>
+    <div class="MultiBannerFullBanner bannerFlash" style="height: 90px; display: none;">
+        <object width="728" height="90" bgcolor="#ffffff" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                type="application/x-shockwave-flash" style="height:90px; width:728px; overflow:hidden;">
+            <param name="movie" value="/Images/App-banner-150323-728x90.swf">
+            <param name="allowFullScreen" value="true">
+            <param name="wmode" value="transparent">
+            <param name="allowscriptaccess" value="always">
+            <embed width="728" height="90" pluginspage="http://www.macromedia.com/go/getflashplayer"
+                   wmode="transparent" type="application/x-shockwave-flash"
+                   src="/Images/App-banner-150323-728x90.swf"
+                   quality="high" allowscriptaccess="always" allowfullscreen="true">
+        </object>
+    </div>
+  
+    <div class="MultiBannerFullBanner bannerFlash" style="height: 90px; display: none;">
+        <object width="728" height="90" bgcolor="#ffffff" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                type="application/x-shockwave-flash" style="height:90px; width:728px; overflow:hidden;">
+            <param name="movie" value="/Images/KMCongDiem_NangCapTK_728x90.swf">
+            <param name="allowFullScreen" value="true">
+            <param name="wmode" value="transparent">
+            <param name="allowscriptaccess" value="always">
+            <embed width="728" height="90" pluginspage="http://www.macromedia.com/go/getflashplayer"
+                   wmode="transparent" type="application/x-shockwave-flash"
+                   src="/Images/KMCongDiem_NangCapTK_728x90.swf"
+                   quality="high" allowscriptaccess="always" allowfullscreen="true">
+        </object>
+    </div>
+
+    <div class="MultiBannerFullBanner bannerFlash" style="height: 90px; display: none;">
+        <object width="728" height="90" bgcolor="#ffffff" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                type="application/x-shockwave-flash" style="height:90px; width:728px; overflow:hidden;">
+            <param name="movie" value="/Images/Top_DTHQ_728x90_AnhPTV.swf">
+            <param name="allowFullScreen" value="true">
+            <param name="wmode" value="transparent">
+            <param name="allowscriptaccess" value="always">
+            <embed width="728" height="90" pluginspage="http://www.macromedia.com/go/getflashplayer"
+                   wmode="transparent" type="application/x-shockwave-flash"
+                   src="/Images/Top_DTHQ_728x90_AnhPTV.swf"
+                   quality="high" allowscriptaccess="always" allowfullscreen="true">
+        </object>
+    </div>
+
+    <div style="display:none;height:90px" class="MultiBannerFullBanner bannerGIF">
+        <a href="http://file.dothi.net/KM/dang-tin-rinh-qua-khung.html" rel="nofollow"><img src="/Images/DothiNet_FullBanner_isAll_MinhNTN.gif" alt="dothi.net" /></a>
+    </div>
+    <div class="MultiBannerFullBanner bannerFlash" style="height: 90px; display: none;">
+        <object width="728" height="90" bgcolor="#ffffff" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+                type="application/x-shockwave-flash" style="height:90px; width:728px; overflow:hidden;">
+            <param name="movie" value="/Images/DothiNet_FullBanner_isAll_MinhNTN.swf">
+            <param name="allowFullScreen" value="true">
+            <param name="wmode" value="transparent">
+            <param name="allowscriptaccess" value="always">
+            <embed width="728" height="90" pluginspage="http://www.macromedia.com/go/getflashplayer"
+                   wmode="transparent" type="application/x-shockwave-flash"
+                   src="/Images/DothiNet_FullBanner_isAll_MinhNTN.swf"
+                   quality="high" allowscriptaccess="always" allowfullscreen="true">
+        </object>
+    </div>
+
+</div>
+<script>
+    $('.banneradv').each(function () {
+        if (!$(this).hasClass(page)) $(this).remove();
+    });
+    $('.bannernagative').each(function () {
+        if ($(this).hasClass('Not_'+page)) $(this).remove();
+    });
+    var isiPad = navigator.userAgent.match(/iPad/i) != null;
+    if (isiPad) {
+        $('.bannerFlash').remove();
+    } else {
+        $('.bannerGIF').remove();
+    }
+    $.fn.multibanner("MultiBannerFullBanner");
+</script>
+</div>
+
+<div class="login">
+    <div class="contentwarp">
+        <div class="content-login">
+            <!-- Đặt thẻ này vào phần đầu hoặc ngay trước thẻ đóng phần nội dung của bạn. -->
+            <script src="https://apis.google.com/js/platform.js" async defer>
+                { lang: 'vi' }
+            </script>
+
+            <!-- Đặt thẻ này vào nơi bạn muốn Nút +1 kết xuất. -->
+            <div class="g-plusone" data-size="medium"></div>
+            <a rel="nofollow" class="iconlinkgg" target="_blank" href="https://plus.google.com/u/0/+Banxehoi/posts">Google plus</a>
+            <a rel="nofollow" class="iconlinkfb" target="_blank" href="https://www.facebook.com/pages/Banxehoicom/1510014629249357?ref=ts&fref=ts ">Facebook</a>
+            <a rel="nofollow" class="iconlinkyoutube" target="_blank" href="https://www.youtube.com/channel/UCBS6cVnTKyHH5k9rJjmyY9g">Youtube</a>
+
+            <div class="linkbaogia"><a rel="nofollow" href="/bao-gia">Báo giá</a></div>
+            <div class="posting"><a href="/dang-tin-ban-xe">Đăng tin mua bán xe</a></div>
+                <div class="user"><a href="/login" rel="nofollow" id="dangnhap" class="fancybox.ajax">Đăng nhập</a></div>
+                <div class="register"><a href="/register" rel="nofollow" id="dangky" class="fancybox.ajax">Đăng ký</a></div>
+        </div>
+    </div>
+</div>
+
+<div id="sticky">
+    <div class="pagemenu">
+        <div class="content-pagemenu">
+            <ul>
+                <li class="first">
+                    <a href="/" id="tc"><img src="/Images/homev3.png" alt="banxehoi.com" /></a>
+                </li>
+                <li class="first" id="banxe">
+                    <a href="/ban-xe" data-key="/ban-xe">Tin bán ô tô</a>
+                    <div class="submenuv2">
+                        <div id="col1" class="col"><div class='item'><a id="1" class="" href='/ban-xe-acura' >Acura</a></div><div class='item'><a id="5" class="" href='/ban-xe-audi' >Audi</a></div><div class='item'><a id="7" class="" href='/ban-xe-bmw' >BMW</a></div><div class='item'><a id="13" class="" href='/ban-xe-chevrolet' >Chevrolet</a></div><div class='item'><a id="16" class="" href='/ban-xe-daewoo' >Daewoo</a></div><div class='item'><a id="17" class="" href='/ban-xe-daihatsu' >Daihatsu</a></div><div class='item'><a id="21" class="" href='/ban-xe-fiat' >Fiat</a></div><div class='item'><a id="22" class="" href='/ban-xe-ford' >Ford</a></div><div class='item'><a id="28" class="" href='/ban-xe-honda' >Honda</a></div><div class='item'><a id="30" class="" href='/ban-xe-hyundai' >Hyundai</a></div><div class='item'><a id="32" class="" href='/ban-xe-isuzu' >Isuzu</a></div><div class='item'><a id="35" class="" href='/ban-xe-kia' >Kia</a></div><div class='item'><a id="39" class="" href='/ban-xe-landrover' >LandRover</a></div><div class='item'><a id="40" class="" href='/ban-xe-lexus' >Lexus</a></div></div>
+                        <div id="col2" class="col">
+                            <div class='item'><a id="48" class="" href='/ban-xe-mazda' >Mazda</a></div><div class='item'><a id="92" class="" href='/ban-xe-mercedes-benz' >Mercedes-Benz</a></div><div class='item'><a id="54" class="" href='/ban-xe-mitsubishi' >Mitsubishi</a></div><div class='item'><a id="55" class="" href='/ban-xe-nissan' >Nissan</a></div><div class='item'><a id="61" class="" href='/ban-xe-porsche' >Porsche</a></div><div class='item'><a id="63" class="" href='/ban-xe-renault' >Renault</a></div><div class='item'><a id="67" class="" href='/ban-xe-samsung' >Samsung</a></div><div class='item'><a id="76" class="" href='/ban-xe-suzuki' >Suzuki</a></div><div class='item'><a id="78" class="" href='/ban-xe-thaco' >Thaco</a></div><div class='item'><a id="79" class="" href='/ban-xe-toyota' >Toyota</a></div>
+                            <div class='item special'><a id="showexpand" href="javascript:void(0)" rel="nofollow">Hãng xe khác »</a></div>
+                        </div>
+                        <div id="expand">
+                            <div id="col3" class="col"><div class='item'><a id="2" class="" href='/ban-xe-alfa-romeo' >Alfa Romeo</a></div><div class='item'><a id="3" class="" href='/ban-xe-asia' >Asia</a></div><div class='item'><a id="4" class="" href='/ban-xe-aston-martin' >Aston Martin</a></div><div class='item'><a id="104" class="" href='/ban-xe-baic' >BAIC</a></div><div class='item'><a id="6" class="" href='/ban-xe-bentley' >Bentley</a></div><div class='item'><a id="8" class="" href='/ban-xe-buick' >Buick</a></div><div class='item'><a id="9" class="" href='/ban-xe-byd' >BYD</a></div><div class='item'><a id="10" class="" href='/ban-xe-cadillac' >Cadillac</a></div><div class='item'><a id="11" class="" href='/ban-xe-changan' >Changan</a></div><div class='item'><a id="12" class="" href='/ban-xe-chery' >Chery</a></div><div class='item'><a id="14" class="" href='/ban-xe-chrysler' >Chrysler</a></div><div class='item'><a id="15" class="" href='/ban-xe-citroen' >Citroen</a></div><div class='item'><a id="18" class="" href='/ban-xe-dodge' >Dodge</a></div><div class='item'><a id="19" class="" href='/ban-xe-eagle' >Eagle</a></div><div class='item'><a id="105" class="" href='/ban-xe-fairy' >Fairy</a></div></div>
+                            <div id="col4" class="col"><div class='item'><a id="20" class="" href='/ban-xe-ferrari' >Ferrari</a></div><div class='item'><a id="23" class="" href='/ban-xe-gaz' >Gaz</a></div><div class='item'><a id="24" class="" href='/ban-xe-geely' >Geely</a></div><div class='item'><a id="25" class="" href='/ban-xe-geo' >Geo</a></div><div class='item'><a id="26" class="" href='/ban-xe-gmc' >GMC</a></div><div class='item'><a id="27" class="" href='/ban-xe-haima' >Haima</a></div><div class='item'><a id="86" class="" href='/ban-xe-hino' >Hino</a></div><div class='item'><a id="29" class="" href='/ban-xe-hummer' >Hummer</a></div><div class='item'><a id="31" class="" href='/ban-xe-infiniti' >Infiniti</a></div><div class='item'><a id="33" class="" href='/ban-xe-jaguar' >Jaguar</a></div><div class='item'><a id="34" class="" href='/ban-xe-jeep' >Jeep</a></div><div class='item'><a id="108" class="" href='/ban-xe-jrd' >JRD</a></div><div class='item'><a id="36" class="" href='/ban-xe-lada' >Lada</a></div><div class='item'><a id="37" class="" href='/ban-xe-lamborghini' >Lamborghini</a></div><div class='item'><a id="38" class="" href='/ban-xe-lancia' >Lancia</a></div></div>
+                            <div id="col5" class="col"><div class='item'><a id="41" class="" href='/ban-xe-lifan' >Lifan</a></div><div class='item'><a id="42" class="" href='/ban-xe-lincoln' >Lincoln</a></div><div class='item'><a id="43" class="" href='/ban-xe-lotus' >Lotus</a></div><div class='item'><a id="44" class="" href='/ban-xe-luxgen' >Luxgen</a></div><div class='item'><a id="45" class="" href='/ban-xe-man' >Man</a></div><div class='item'><a id="46" class="" href='/ban-xe-maserati' >Maserati</a></div><div class='item'><a id="47" class="" href='/ban-xe-maybach' >Maybach</a></div><div class='item'><a id="102" class="" href='/ban-xe-mclaren' >McLaren</a></div><div class='item'><a id="49" class="" href='/ban-xe-mekong' >Mekong</a></div><div class='item'><a id="51" class="" href='/ban-xe-mercury' >Mercury</a></div><div class='item'><a id="52" class="" href='/ban-xe-mg' >MG</a></div><div class='item'><a id="53" class="" href='/ban-xe-mini' >Mini</a></div><div class='item'><a id="56" class="" href='/ban-xe-oldsmobile' >Oldsmobile</a></div><div class='item'><a id="57" class="" href='/ban-xe-opel' >Opel</a></div><div class='item'><a id="58" class="" href='/ban-xe-peugeot' >Peugeot</a></div></div>
+                            <div id="col6" class="col"><div class='item'><a id="59" class="" href='/ban-xe-plymouth' >Plymouth</a></div><div class='item'><a id="89" class="" href='/ban-xe-pmc' >PMC</a></div><div class='item'><a id="60" class="" href='/ban-xe-pontiac' >Pontiac</a></div><div class='item'><a id="62" class="" href='/ban-xe-proton' >Proton</a></div><div class='item'><a id="93" class="" href='/ban-xe-rolls-royce' >Rolls-Royce</a></div><div class='item'><a id="65" class="" href='/ban-xe-rover' >Rover</a></div><div class='item'><a id="66" class="" href='/ban-xe-saab' >Saab</a></div><div class='item'><a id="68" class="" href='/ban-xe-santana' >Santana</a></div><div class='item'><a id="69" class="" href='/ban-xe-saturn' >Saturn</a></div><div class='item'><a id="70" class="" href='/ban-xe-scion' >Scion</a></div><div class='item'><a id="71" class="" href='/ban-xe-seat' >Seat</a></div><div class='item'><a id="72" class="" href='/ban-xe-skoda' >Skoda</a></div><div class='item'><a id="73" class="" href='/ban-xe-smart' >Smart</a></div><div class='item'><a id="74" class="" href='/ban-xe-ssangyong' >Ssangyong</a></div><div class='item'><a id="75" class="" href='/ban-xe-subaru' >Subaru</a></div></div>
+                            <div id="col7" class="col">
+                                <div class='item'><a id="77" class="" href='/ban-xe-sym' >SYM</a></div><div class='item'><a id="83" class="" href='/ban-xe-tata' >Tata</a></div><div class='item'><a id="94" class="" href='/ban-xe-tobe' >Tobe</a></div><div class='item'><a id="87" class="" href='/ban-xe-uaz' >UAZ</a></div><div class='item'><a id="106" class="" href='/ban-xe-veam' >Veam</a></div><div class='item'><a id="96" class="" href='/ban-xe-veam-motor' >Veam Motor</a></div><div class='item'><a id="80" class="" href='/ban-xe-vinaxuki' >Vinaxuki</a></div><div class='item'><a id="82" class="" href='/ban-xe-volvo' >Volvo</a></div><div class='item'><a id="88" class="" href='/ban-xe-xe-chuyen-dung' >Xe chuyên dùng</a></div><div class='item'><a id="90" class="" href='/ban-xe-xe-tai' >Xe tải</a></div><div class='item'><a id="103" class="" href='/ban-xe-zotie' >Zotie</a></div><div class='item'><a id="101" class="" href='/ban-xe-hang-khac' >Hãng khác</a></div>
+                                <div class='item special'><a id="hideexpand" href="javascript:void(0)" rel="nofollow">« Thu gọn</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                    <li>
+                        <a href="/salons" data-key="/salons">Salon ô tô</a>
+                    </li>
+                <li>
+                    <a href="/tin-tuc" data-key="/tin-tuc">Tin tức</a>
+                    <ul class="sub-menu">
+                        <li><a href="/tin-tuc/thi-truong-o-to" data-key="/thi-truong-o-to">Thị trường ô tô</a></li>
+                        <li><a href="/tin-tuc/xe-moi" data-key="/xe-moi">Xe mới</a></li>
+                        <li><a href="/tin-tuc/su-kien" data-key="/su-kien">Sự kiện</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="/danh-gia-xe" data-key="/danh-gia-xe">Đánh giá xe</a></li>
+                <li><a href="/so-sanh-xe" data-key="/so-sanh-xe">So sánh xe</a></li>
+                <li>
+                    <a href="/kinh-nghiem" data-key="/kinh-nghiem">Kinh nghiệm</a>
+                    <ul class="sub-menu">
+                        <li><a href="/kinh-nghiem/kinh-nghiem-lai-xe" data-key="/kinh-nghiem-lai-xe">Kinh nghiệm lái xe</a></li>
+                        <li><a href="/kinh-nghiem/cham-soc-va-bao-duong-o-to" data-key="/cham-soc-va-bao-duong-o-to">Chăm sóc và bảo dưỡng ô tô</a></li>
+                        <li><a href="/kinh-nghiem/kinh-nghiem-mua-ban-xe" data-key="/kinh-nghiem-mua-ban-xe">Kinh nghiệm mua / bán xe</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/tu-van-xe" data-key="/tu-van-xe">Tư vấn xe</a>
+                    <ul class="sub-menu">
+                        <li><a href="/tu-van-xe/tu-van-phap-luat" data-key="/tu-van-phap-luat">Tư vấn pháp luật</a></li>
+                        <li><a href="/tu-van-xe/bao-hiem-xe" data-key="/bao-hiem-xe">Bảo hiểm xe</a></li>
+                        <li><a href="/tu-van-xe/phong-thuy-xe" data-key="/phong-thuy-xe">Phong thủy xe</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/o-to-360" data-key="/o-to-360">Ô tô 360</a>
+                    <ul class="sub-menu">
+                        <li><a href="/o-to-360/cong-nghe-moi" data-key="/cong-nghe-moi">Công nghệ mới</a></li>
+                        <li><a href="/o-to-360/kham-pha" data-key="/kham-pha">Khám phá</a></li>
+                        <li><a href="/o-to-360/lich-su-cac-hang-xe" data-key="/lich-su-cac-hang-xe">Lịch sử các hãng xe</a></li>
+                        <li><a href="/o-to-360/nguoi-dep-va-xe" data-key="/nguoi-dep-va-xe">Người đẹp và xe</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/videos" data-key="/videos">Video ô tô</a>
+                    <ul class="sub-menu">
+                        <li><a href="/videos/danh-gia-xe" data-key="videos/danh-gia-xe">Video đánh giá</a></li>
+                        <li><a href="/videos/giao-thong" data-key="videos/giao-thong">Video giao thông</a></li>
+                        <li><a href="/videos/doc-va-la" data-key="videos/doc-va-la">Video độc - lạ</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="/dich-vu" data-key="/dich-vu">Dịch vụ</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    activemenuheader();
+    $("body").on("click", "#dangnhap", function () {
+        $('#dangnhap').fancybox({
+            fitToView: false,
+            autoCenter: false
+        });
+    });
+    $("body").on("click", "#dangky", function () {
+        $('#dangky').fancybox({
+            fitToView: false,            
+            autoCenter: false
+        });
+    });
+
+    $('#banxe').hover(function () {
+        $(this).find(".submenuv2").show();
+    },
+        function () {
+            $(this).find(".submenuv2").hide();
+            $('.contentmakemodel').remove();
+            $('.modelbymake').remove();
+        });
+
+    $('.submenuv2 .item>a').showmodelbymake();
+</script>
+        <div class="pagecontent" style="text-align:center;min-height:300px;padding:20px 0 0">
+            <p style="font-size: 20px">Không tìm thấy nội dung bạn yêu cầu.</p>
+            <p style="font-size: 20px">Quay về <a href="/">Trang chủ</a></p>
+        </div>
+        
+<div class="newfooter">
+    <div class="menufooter">
+        <ul>
+            <li><a href="/lien-he" rel="nofollow">Liên hệ</a></li>
+            <li><a href="/gioi-thieu" rel="nofollow">Giới thiệu</a></li>
+            <li><a href="/quy-che-hoat-dong" rel="nofollow">Quy chế hoạt động</a></li>
+            <li><a href="/dieu-khoan-hoat-dong-salon" rel="nofollow">Điều khoản hoạt động salon</a></li>
+            <li><a href="/quy-dinh-chinh-sach" rel="nofollow">Quy định, chính sách</a></li>
+            <li><a href="/cau-hoi-thuong-gap" rel="nofollow">Câu hỏi thường gặp</a></li>
+            <li><a href="/sitemap">Sitemap</a></li>
+        </ul>
+    </div>
+    <div class="infocompany">
+        <div class="infocenter">
+            <div class="left">
+                <h2 class="name">CÔNG TY CỔ PHẦN NEXTGEN VIỆT NAM</h2>
+                <p>Giấy phép ICP số 978/GP-TTĐT</p>
+                <p>Banxehoi.com không bán xe trực tiếp, quý khách mua xe xin vui lòng liên hệ trực tiếp người đăng tin.</p>
+                <p>Website được phát triển bởi: Đại Việt Group - http://daivietgroup.net</p>
+
+                <p class="address">
+                    VP HCM: Lầu 3, Thiên Sơn Building, số 5 đường Nguyễn Gia Thiều, Phường 6, Quận 3, TP. Hồ Chí Minh.<br />
+                    VP HN:&nbsp;&nbsp;&nbsp;&nbsp;Phòng 701, tầng 7, tòa nhà Vinaconex 9, đường Phạm Hùng, phường Mễ Trì, Hà Nội.</p>
+
+                <p><span class="phone">0904573739</span> <span class="email">hotro@banxehoi.com</span></p>
+
+                <p class="supportv5"><span style="float: left; margin: 5px 0 0 0;">Hỗ trợ trực tuyến</span><a rel="nofollow" href="ymsgr:sendim?Banxehoi.com1&m=Xin chao!" class="yahoo"></a> <a rel="nofollow" href="skype:Banxehoi.com?chat" class="skype"></a></p>
+
+            </div>
+            <div class="right">
+                <div>Bạn đánh giá như thế nào về website Banxehoi.com?</div>
+                <div style="display:inline-block;">
+                    <input checked="checked" name="bc" type="radio" value="2" id="bc2" />
+                    <label for="bc2">Rất hài lòng</label> <br />
+                    <input name="bc" type="radio" value="3" id="bc3" />
+                    <label for="bc3">Bình thường</label> <br />
+                    <input name="bc" type="radio" value="5" id="bc5" />
+                    <label for="bc5">Cần sửa chữa nhiều</label>
+                </div>
+                <div style="margin-top:10px;">
+                    <input value="BÌNH CHỌN" type="button" class="btncancel" onclick="Vote();" />&nbsp;
+                    <a class="resultlink" href="javascript:void(0)" rel="nofollow" onclick="ShowVoteResult()">Xem kết quả</a>
+                </div>
+                <div style="float: left; width: 160px;padding:15px 0 0 0"><a rel="nofollow" target="_blank" href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=13673"><img alt="bocongthuong" src="/Images/dangkyBCT2.png" width="96px" /></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<input value="theend" type="hidden" id="theend" />
+
+        
+    </div>    
+</body>
+</html>
